@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zapiski Starego Browarnika</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #fdf6e3;
+    color: #333;
+    margin: 2em auto;
+    max-width: 900px;
+    line-height: 1.6;
+  }
+  h1 {
+    text-align: center;
+    color: #8b0000;
+    margin-bottom: 1em;
+  }
+  h2 {
+    color: #d2691e;
+    margin-top: 1.5em;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 0.2em;
+  }
+  p {
+    margin: 0.5em 0 1em 0;
+  }
+  section {
+    margin-bottom: 2em;
+  }
+  span.emoji {
+    font-size: 1.2em;
+  }
+</style>
+</head>
+<body>
+<h1>Zapiski Starego Browarnika</h1>
+
+<section>
+<h2><span class="emoji">🌾</span> Piwo pszenne</h2>
+<p>Pszenicy pięć garści, tak jak słońce wschodzi — pewne jak dzień. Cukru odrobina, jedna miarka. Gotować krótko, ale nie za krótko. Beczka z dębu, dwa lata, i jest jasne jak zboże w polu.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍺</span> Piwo zwykłe</h2>
+<p>Pszenicy… sześć garści, nie mniej. Cukru dwie miarki. Gotować dłużej niż poprzednie, beczka dębowa, trzy zimy i wiosny. Piana gęsta, smakuje łagodnie.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍺</span> Piwo ciemne</h2>
+<p>Pszenicy sporo, osiem garści. Cukru dwie miarki. Gotować trzeba cierpliwie, by nie przypalić. Do beczki ze świerku albo z sosny? Nie, chyba ze świerku… na cztery lata. Smak mocny, palony.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍷</span> Wino czerwone</h2>
+<p>Owoce czerwone, jagody słodkie, sześć garści. Do tego trzy miarki słodyczy i chyba jabłka, dwa albo trzy. Gotować długo, beczka ciężka, dziesięć pierścieni z żelaza, leżakować osiem lat. Smak bogaty, owocowy.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍯</span> Miód pitny</h2>
+<p>Miodu cztery flaszki, to pamiętam. Cukru dwie miarki, zboża dwie. Gotować umiarkowanie. Beczka dębowa, pięć lat. Słodki, grzeje w gardło.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍯🍎</span> Słodki miód jabłkowy</h2>
+<p>Miodu trochę mniej niż zwykle, trzy flaszki. Jabłka… trzy sztuki? Może cztery, nie pamiętam. Cukru dwie miarki. Gotować trzeba dłużej, beczka prosta, sześć lat. Smak jak jabłko w miodzie.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍏</span> Cydr jabłkowy</h2>
+<p>Jabłka całkiem sporo, pięć sztuk. Cukru dwie miarki. Owoce czerwone dwie garści, takie drobne i kwaskowate. Gotować średnio, beczka dębowa, cztery zimy. Smak świeży, owocowy.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍎🍶</span> Likier jabłkowy</h2>
+<p>Jabłek sześć. Cukru dużo, cztery miarki. Zboża garść, nie więcej. Gotować długo, aż para idzie. Destylować raz, drugi, dwa razy. Beczka mała, sześć lat. Mocny, pali w gardło.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🥃</span> Whiskey</h2>
+<p>Pszenicy osiem garści. Cukru trzy miarki. Gotować długo, cierpliwie. Destylować kilka razy, trzy. Beczka chyba dębowa, leżeć musi dwanaście lat. Głęboki, wędzony smak.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🌶️</span> Rum korzenny</h2>
+<p>Trzciny cukrowej pełno, osiem lasek. Do tego jagód trochę, może dwie garście, i coś brązowego gorzkiego — kakao? Jedno ziarenko wystarczy. Destylować trzy razy. Beczka ciemna, dziesięć lat. Ostry, słodki, piekący.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🥔</span> Wódka</h2>
+<p>Bulw ziemnych, kartofli, sześć sztuk. Słodyczy trzy miarki. Gotować długo, destylować cztery razy. Beczka mała, sześć lat. Klarowna, ostra.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍄</span> Wódka grzybowa</h2>
+<p>Czerwonych kapeluszy kilka, może cztery. Brązowych tyle samo. Słodyczy trzy miarki. Gotować jak zwykłą wódkę, destylować cztery razy. Beczka dębowa, sześć lat. Smak ziemisty, dziwny.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍸</span> Gin</h2>
+<p>Owoców czerwonych kilka, trzy garście. Słodyczy tyle samo. Zboża dwie garści, jabłka dwa. Gotować długo, destylować trzy razy. Beczka dębowa, sześć lat. Smak ostry, pachnący.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🌵</span> Tequila</h2>
+<p>Zielonych łodyg kilka sztuk… cztery? Cukru cztery miarki. Do tego coś zielonego, długiego, trawy sporo. Gotować długo, destylować trzy razy. Beczka jasna, osiem lat. Smak gorzki, pustynny.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🧪</span> Absynt</h2>
+<p>Owoce czerwone słodkie cztery. Słodyczy pięć. Coś z netheru… wart? Dwie garście. I brązowych kapeluszy parę. Gotować bardzo długo, destylować pięć razy. Beczka mała, piętnaście lat. Moc niebezpieczna.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🌿</span> Zielony absynt</h2>
+<p>Owoce jasne, świecące — trzy garście. Do tego trzy garście czerwonych. Słodyczy pięć. Jeszcze netherowe dwie garści. Gotować długo, destylować pięć razy. Beczka prosta, piętnaście lat. Moc większa niż noc.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🥔🥣</span> Zupa ziemniaczana</h2>
+<p>Bulwy ziemne, pięć sztuk. Do tego mleko, jedno wiadro. Marchew dwie sztuki. Gotować krótko. Beczka niepotrzebna. Gęsta i ciepła.</p>
+</section>
+
+<section>
+<h2><span class="emoji">☕</span> Kawa</h2>
+<p>Ziaren brązowych pięć, gorzkich. Cukru dwie miarki. Mleka trochę, jedno wiadro. Gotować chwilę. Pita świeża, nie starzona. Mocna i cierpka.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍓🍾</span> Prosecco owocowe</h2>
+<p>Jagód sześć, świecących trzy. Słodyczy trzy miarki. Gotować chwilę, raz destylować. Beczka wielka, sześć lat. Musujące, owocowe.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🧋</span> Boba tea</h2>
+<p>Mleka jedno wiadro. Cukru sporo, trzy miarki. Ziaren brązowych dwie garście. Owoców czerwonych dwie garście. Gotować chwilę. Pita świeża. Słodka herbata.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🌸</span> Herbata wiśniowa</h2>
+<p>Liści wiśni trzy. Cukru dwie miarki. Gotować krótko. Beczka wiśniowa, od razu do picia. Pachnąca kwiatami.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🥛</span> Latte kremowe</h2>
+<p>Ziaren brązowych cztery. Mleka dwa wiadra. Cukru trzy miarki. Gotować krótko. Pita świeża. Gładkie i kremowe.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🥚🍷</span> Eggnog</h2>
+<p>Mleka dwa wiadra. Cukru trzy miarki. Zboża dwie garście. Jagód czerwonych dwie. Gotować dłużej. Do beczki na rok. Ciepły smak świąt.</p>
+</section>
+
+<section>
+<h2><span class="emoji">⚡</span> Napar energetyczny</h2>
+<p>Słodyczy pięć miar. Ziaren brązowych dwie garście. Owoce świecące dwie garście. Gotować krótko. Bez starzenia. Daje siłę.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🔥</span> Rum netheryczny</h2>
+<p>Trzciny osiem. Coś z netheru, dwie garście. Świecących owoców dwie. Gotować długo, destylować trzy razy. Beczka ciemna, dwanaście lat. Smak piekący jak ogień.</p>
+</section>
+
+<section>
+<h2><span class="emoji">📜</span> Ferment z papieru rumiankowego</h2>
+<p>Kartki trzy. Kwiaty żółte trzy. Słodyczy cztery miary. Zboża dwie garści. Gotować długo, dwa razy destylować. Beczka mała, sześć lat. Smak dziwny, niepokojący.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🥂</span> Ouzo</h2>
+<p>Czerwonych owoców trzy. Słodyczy cztery miary. Netherowe dwie garście. Gotować długo, trzy destylacje. Beczka mała, osiem lat. Smak anyżowy.</p>
+</section>
+
+<section>
+<h2><span class="emoji">💧</span> Mikstura młodości</h2>
+<p>Świecących owoców pięć. Czerwonych dwie garście. Słodyczy trzy miary. Złote jabłko jedno. Gotować długo, dwa razy destylować. Beczka wielka, sześć lat. Smak witalności.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🎃</span> Pumpkin Spice Latte</h2>
+<p>Dynia dwie. Cukru trzy miary. Mleka dwa wiadra. Ziaren brązowych dwie garście. Gotować krótko. Pita świeża. Smak przypraw i dyni.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🌹</span> Rose Cava</h2>
+<p>Owoców czerwonych cztery. Liści wiśni dwa. Cukru trzy miarki. Gotować chwilę, destylować raz. Beczka wiśniowa, pięć lat. Smak kwiatowy, musujący.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍯</span> Saccharine Glow Syrup</h2>
+<p>Świecących owoców pięć. Słodyczy pięć miar. Gotować krótko. Nie starzić. Gęsty, kleisty, świeci.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🎅</span> Kakao Świętego Mikołaja</h2>
+<p>Ziaren brązowych pięć. Słodyczy trzy miarki. Mleka dwa wiadra. Owoców czerwonych dwie garście. Gotować krótko. Pita świeża. Słodkie i świąteczne.</p>
+</section>
+
+<section>
+<h2><span class="emoji">☃️</span> Napój Bałwanka</h2>
+<p>Śnieg trzy garście. Cukru trzy miary. Mleka trochę. Owoców czerwonych dwie garście. Gotować chwilę. Pita świeża. Mroźny smak.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍵</span> Herbata słodka</h2>
+<p>Słodyczy pięć miar. Zboża dwie garście. Owoców czerwonych dwie garście. Gotować krótko. Pita świeża. Orzeźwiająca.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🕷️</span> Napar Sióstr</h2>
+<p>Coś z netheru, dwie garście. Świecących owoców trzy. Grzybów brązowych trzy. Oko pająka jedno. Gotować długo, destylować cztery razy. Beczka ciemna, dwanaście lat. Napój mroczny, rytualny.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🌞</span> Młody Bóg</h2>
+<p>Złote jabłko jedno. Świecących owoców trzy. Miodu dwie flaszki. Słodyczy trzy miary. Gotować długo, trzy razy destylować. Beczka wielka, piętnaście lat. Napój boski.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🍫</span> Rum deserowy</h2>
+<p>Trzciny osiem. Ziaren brązowych trzy. Owoców czerwonych dwie garście. Gotować długo, trzy razy destylować. Beczka ciemna, dziesięć lat. Smak słodki, ciężki.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🌹</span> Wódka różana</h2>
+<p>Bulw ziemnych pięć. Liści wiśni trzy. Słodyczy trzy miary. Gotować długo, cztery razy destylować. Beczka mała, osiem lat. Smak kwiatowy.</p>
+</section>
+
+<section>
+<h2><span class="emoji">🔮</span> Napar sabatu</h2>
+<p>Coś netherowego trzy. Dwa oczy… nie, dwa grzyby? I świecących owoców kilka. Pająk tam też był, chyba dwa. Gotować bardzo długo, destylować aż pięć razy. Beczka ciężka, dwadzieścia lat. Smak zakazany.</p>
+</section>
+
+</body>
+</html>
