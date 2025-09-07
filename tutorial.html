@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Tutorial – BreweryX</title>
+  <link rel="stylesheet" href="style.css"> <!-- możesz użyć tego samego CSS co na stronie głównej -->
+</head>
+<body>
+  <main>
+    <h1>📖 Tutorial – Jak korzystać z BreweryX</h1>
+
+    <h2>1. Podstawy</h2>
+    <p>Cel: robisz napoje z różnych składników, gotujesz je, destylujesz, starzysz w beczkach i na końcu pijesz albo częstujesz innych.</p>
+    <p><b>Uwaga:</b> każde potknięcie (za długo gotowane, zła ilość składników, inna beczka) wpływa na jakość.</p>
+
+    <h2>2. Składniki</h2>
+    <p>Zbierz potrzebne rzeczy (ziarna, owoce, cukier, mleko itp.).</p>
+    <p>Dla pewności, trzymając je w ręce i sprawdź komendą:</p>
+    <code>/brew ItemName</code>
+    <p>aby poznać nazwę materiału w plikach pluginu.</p>
+
+    <h2>3. Warzenie (kocioł)</h2>
+    <p>Zbuduj kociołek z wodą.</p>
+    <p>Kociołek musi stać nad źródłem ciepła – może to być: ogień, ognisko, lawa albo blok magmy. (patrz rys.3)</p>
+    <p>Wrzucaj składniki klikając PPM (prawym przyciskiem myszy).</p>
+    <p>Gotuj dokładnie tyle minut, ile trzeba. Za krótko lub za długo = gorsza jakość.</p>
+    <p>Zdejmij napój butelką.</p>
+
+    <h2>4. Destylacja (opcjonalna)</h2>
+    <p>Włóż butelkę do statywu alchemicznego.</p>
+    <p>Na górze statywu musi znajdować się Glowstone Dust (pył z jasnogłazu). (patrz rys.4)</p>
+    <p>Każdy cykl destylacji trwa ~40 sekund (chyba że YAML ustawia inaczej).</p>
+    <p>Niektóre napoje potrzebują wielu przebiegów, inne wcale.</p>
+
+    <h2>5. Starzenie w beczkach</h2>
+    <p>Beczki są dwa rodzaje: mała i duża (patrz rys.1 i rys.2).</p>
+    <ul>
+      <li>Mała: 8 schodków i 1 tabliczka</li>
+      <li>Duża: 16 schodków, 20 pełnych bloków, 5 płotków, 1 tabliczka</li>
+    </ul>
+    <p>Na tabliczce napisz: <code>barrel</code></p>
+    <p>Kliknij tabliczkę, by otworzyć beczkę.</p>
+    <p>Włóż butelki do środka. Napoje muszą leżakować tyle lat (MC-dni), ile podano w recepturze.</p>
+    <p><b>Rodzaj drewna beczki ma znaczenie!</b> (np. dąb, świerk, akacja, ciemny dąb itd.).</p>
+
+    <h2>6. Kolor i opis</h2>
+    <p>Po ukończeniu napój dostaje kolor i opis („lore”). Widać też jego jakość: 0-5 gwiazdek.</p>
+
+    <h2>7. Picie</h2>
+    <p>Wypicie dodaje alkohol (0–100).</p>
+    <p>Alkohol wpływa na postać: chwianie się, zamglenie ekranu, a w końcu wymioty. Mogą też odpalić się efekty specjalne (np. SPEED, POISON, FIRE_RESISTANCE).</p>
+
+    <h2>8. Komendy dla gracza</h2>
+    <ul>
+      <li><code>/brew help</code> – pomoc</li>
+      <li><code>/brew info</code> – info o napoju</li>
+      <li><code>/brew ItemName</code> – sprawdzenie nazwy materiału w YAML</li>
+    </ul>
+
+    <hr>
+    <h2>Rysunki</h2>
+    <div style="display:flex; gap:20px; flex-wrap:wrap;">
+      <img src="images/BreweryXrys1.png" alt="Rysunek 1" width="300">
+      <img src="images/BreweryXrys2.png" alt="Rysunek 2" width="300">
+      <img src="images/BreweryXrys3.png" alt="Rysunek 3" width="300">
+      <img src="images/BreweryXrys4.png" alt="Rysunek 4" width="300">
+    </div>
+  </main>
+</body>
+</html>
