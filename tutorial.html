@@ -3,7 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <title>Tutorial – BreweryX</title>
-  <link rel="stylesheet" href="style.css"> <!-- możesz użyć tego samego CSS co na stronie głównej -->
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #fafafa;
+      color: #222;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    code {
+      background: #eee;
+      padding: 2px 4px;
+      border-radius: 4px;
+    }
+    img {
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      margin: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+    .images {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+  </style>
 </head>
 <body>
   <main>
@@ -15,55 +46,44 @@
 
     <h2>2. Składniki</h2>
     <p>Zbierz potrzebne rzeczy (ziarna, owoce, cukier, mleko itp.).</p>
-    <p>Dla pewności, trzymając je w ręce i sprawdź komendą:</p>
-    <code>/brew ItemName</code>
-    <p>aby poznać nazwę materiału w plikach pluginu.</p>
+    <p>Dla pewności sprawdź komendą: <code>/brew ItemName</code> aby poznać nazwę materiału w YAML.</p>
 
     <h2>3. Warzenie (kocioł)</h2>
-    <p>Zbuduj kociołek z wodą.</p>
-    <p>Kociołek musi stać nad źródłem ciepła – może to być: ogień, ognisko, lawa albo blok magmy. (patrz rys.3)</p>
-    <p>Wrzucaj składniki klikając PPM (prawym przyciskiem myszy).</p>
-    <p>Gotuj dokładnie tyle minut, ile trzeba. Za krótko lub za długo = gorsza jakość.</p>
-    <p>Zdejmij napój butelką.</p>
+    <p>Kociołek z wodą musi stać nad źródłem ciepła – ogień, ognisko, lawa albo blok magmy (patrz rys.3).</p>
+    <p>Składniki wrzucasz PPM. Gotuj dokładnie tyle minut, ile trzeba. Za krótko lub za długo = gorsza jakość. Zdejmij napój butelką.</p>
 
     <h2>4. Destylacja (opcjonalna)</h2>
-    <p>Włóż butelkę do statywu alchemicznego.</p>
-    <p>Na górze statywu musi znajdować się Glowstone Dust (pył z jasnogłazu). (patrz rys.4)</p>
-    <p>Każdy cykl destylacji trwa ~40 sekund (chyba że YAML ustawia inaczej).</p>
-    <p>Niektóre napoje potrzebują wielu przebiegów, inne wcale.</p>
+    <p>Butelkę włóż do statywu alchemicznego. Na górze musi być Glowstone Dust (rys.4).</p>
+    <p>Jeden cykl trwa ~40 s (chyba że YAML ustawia inaczej). Niektóre napoje wymagają wielu cykli, inne wcale.</p>
 
     <h2>5. Starzenie w beczkach</h2>
-    <p>Beczki są dwa rodzaje: mała i duża (patrz rys.1 i rys.2).</p>
+    <p>Beczki są dwa rodzaje (rys.1 i rys.2):</p>
     <ul>
-      <li>Mała: 8 schodków i 1 tabliczka</li>
-      <li>Duża: 16 schodków, 20 pełnych bloków, 5 płotków, 1 tabliczka</li>
+      <li>Mała: 8 schodków + 1 tabliczka</li>
+      <li>Duża: 16 schodków + 20 bloków + 5 płotków + 1 tabliczka</li>
     </ul>
-    <p>Na tabliczce napisz: <code>barrel</code></p>
-    <p>Kliknij tabliczkę, by otworzyć beczkę.</p>
-    <p>Włóż butelki do środka. Napoje muszą leżakować tyle lat (MC-dni), ile podano w recepturze.</p>
-    <p><b>Rodzaj drewna beczki ma znaczenie!</b> (np. dąb, świerk, akacja, ciemny dąb itd.).</p>
+    <p>Na tabliczce napisz: <code>barrel</code>. Kliknij tabliczkę, by otworzyć beczkę. Napoje muszą leżakować tyle lat (MC-dni), ile podano w recepturze. Rodzaj drewna ma znaczenie.</p>
 
     <h2>6. Kolor i opis</h2>
-    <p>Po ukończeniu napój dostaje kolor i opis („lore”). Widać też jego jakość: 0-5 gwiazdek.</p>
+    <p>Po ukończeniu napój dostaje kolor i opis („lore”) oraz ocenę: 0–5 gwiazdek.</p>
 
     <h2>7. Picie</h2>
-    <p>Wypicie dodaje alkohol (0–100).</p>
-    <p>Alkohol wpływa na postać: chwianie się, zamglenie ekranu, a w końcu wymioty. Mogą też odpalić się efekty specjalne (np. SPEED, POISON, FIRE_RESISTANCE).</p>
+    <p>Wypicie dodaje alkohol (0–100). Efekty: chwianie, zamglenie ekranu, wymioty, czasem efekty specjalne (np. SPEED, POISON, FIRE_RESISTANCE).</p>
 
-    <h2>8. Komendy dla gracza</h2>
+    <h2>8. Komendy</h2>
     <ul>
       <li><code>/brew help</code> – pomoc</li>
       <li><code>/brew info</code> – info o napoju</li>
-      <li><code>/brew ItemName</code> – sprawdzenie nazwy materiału w YAML</li>
+      <li><code>/brew ItemName</code> – sprawdzenie nazwy materiału</li>
     </ul>
 
     <hr>
     <h2>Rysunki</h2>
-    <div style="display:flex; gap:20px; flex-wrap:wrap;">
-      <img src="images/BreweryXrys1.png" alt="Rysunek 1" width="300">
-      <img src="images/BreweryXrys2.png" alt="Rysunek 2" width="300">
-      <img src="images/BreweryXrys3.png" alt="Rysunek 3" width="300">
-      <img src="images/BreweryXrys4.png" alt="Rysunek 4" width="300">
+    <div class="images">
+      <img src="images/BreweryXrys.1.jpg" alt="Rysunek 1">
+      <img src="images/BreweryXrys.2.jpg" alt="Rysunek 2">
+      <img src="images/BreweryXrys.3.jpg" alt="Rysunek 3">
+      <img src="images/BreweryXrys.4.jpg" alt="Rysunek 4">
     </div>
   </main>
 </body>
