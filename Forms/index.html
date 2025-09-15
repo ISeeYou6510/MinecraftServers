@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Akceptacja regulaminu</title>
+</head>
+<body>
+  <h2>Regulamin serwera</h2>
+  <p>Wklej tu treść regulaminu.</p>
+
+  <form id="acceptForm">
+    <label>Nick Minecraft<br><input id="nick" required></label><br>
+    <label>UUID (z kreskami lub bez)<br><input id="uuid" required></label><br>
+    <button type="submit">Akceptuję regulamin</button>
+  </form>
+
+  <div id="msg"></div>
+
+<script>
+const PROJECT_URL = "https://ggadydvjnwpoalrlcoob.supabase.co"; // <- podmień
+const ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnYWR5ZHZqbndwb2Fscmxjb29iIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTc5NTg4MjIsImV4cCI6MjA3MzUzNDgyMn0.XQ9fuirV6ghmL_lr7IShTG9BlJy-q7kBSM0eqVdJZiM";                       // <- podmień
+
+function hyphenate(u){
+  const s = (u||"").replace(/-/g,"").toLowerCase();
+  if(s.length!==32) return u;
+  return `${s.slice(0,8)}-${s.slice(8,12)}-${s.slice(12,16)}-${s.slice(16,20)}-${s.slice(20)}`;
+}
+
+document.getElementById("acceptForm").addEventListener("submit", async e=>{
+  e.preventDefault();
+  const nick = document.getElementById("nick").value.trim();
+  let uuid = document.getElementById("uuid").value.trim();
+  uuid = hyphenate(uuid);
+
+  if(!nick || !uuid){
+    document.getElementById("msg").textContent = "Wypełnij pola poprawnie.";
+    return;
+  }
+
+  try{
+    const res = await fetch(`${PROJECT_URL}/rest/v1/accepted`, {
+      method: "POST",
+      headers: {
+        "apikey": ANON_KEY,
+        "Authorization": `Bearer ${ANON_KEY}`,
+        "Content-Type": "application/json",
+        "Prefer": "return=representation"
+      },
+      body: JSON.stringify({ nick, uuid })
+    });
+
+    if(res.ok){
+      document.getElementById("msg").textContent = "Zgoda zapisana. Możesz dołączyć do whitelisty.";
+    } else {
+      const t = await res.text();
+      document.getElementById("msg").textContent = "Błąd zapisu: " + res.status + " " + t;
+    }
+  }catch(err){
+    document.getElementById("msg").textContent = "Błąd sieci: " + err.message;
+  }
+});
+</script>
+</body>
+</html>
